@@ -18,7 +18,6 @@ def get_english_meaning(file, emoticon)
       library[key][:english] == emoticon 
       binding.pry 
     end 
-end 
 
 
 
