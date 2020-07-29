@@ -6,6 +6,7 @@ def load_library(file)
   new_hash = {}
   emoticons.each do |key, value|
     binding.pry 
+    new_hash[key] = {}
   end
 end
 
