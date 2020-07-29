@@ -13,9 +13,9 @@ def load_library(file)
 end 
 
 def get_english_meaning(emoticon)
-  emoticon = load_library(file)
-    word = library.keys.find do |keys|
-      binding.pry
+  library = load_library(file)
+    word = library.keys.find do |key|
+      binding.pry 
     end
   end 
 
