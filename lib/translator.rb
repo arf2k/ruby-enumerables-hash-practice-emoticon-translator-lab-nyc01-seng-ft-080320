@@ -19,8 +19,9 @@ def get_english_meaning(file, emoticon)
      end 
     if word 
       library[word][:japanese]
-      binding.pry 
-    end 
+    else 
+      ""
+    end
     end
 
 
