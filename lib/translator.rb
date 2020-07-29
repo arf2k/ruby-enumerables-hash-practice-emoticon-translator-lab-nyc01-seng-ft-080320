@@ -21,8 +21,8 @@ def get_english_meaning(file, emoticon)
       library[word][:japanese]
     else 
       "Sorry, that emoticon was not found"
-    end
-    end
+      end
+  end
 
 
 
