@@ -28,6 +28,7 @@ def get_english_meaning(file, emoticon)
   library = load_library(file)
     word = library.keys.find do |key|
       library[key][:japanese] == emoticon  
+      binding.pry
     end 
   end
 
