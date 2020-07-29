@@ -4,7 +4,7 @@ require "pry"
 def load_library(file)
   emoticons = YAML.load_file(file)
   new_hash = {}
-  binding.pry 
+  
   end
 
 
