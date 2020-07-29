@@ -14,7 +14,7 @@ end
 
 def get_english_meaning(emoticon)
   emoticon = load_library(file)
-    word = 
+    word = library.keys
 
 
 
