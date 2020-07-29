@@ -17,6 +17,7 @@ def get_english_meaning(emoticon)
     word = library.keys.find do |key|
       library[key][:english] == emoticon 
       binding.pry 
+    end 
     end
     if word 
 end 
