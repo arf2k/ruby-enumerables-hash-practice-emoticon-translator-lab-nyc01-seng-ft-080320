@@ -29,6 +29,7 @@ def get_english_meaning(file, emoticon)
     word = library.keys.find do |key|
       binding.pry 
     end 
+  end
 
 
 
