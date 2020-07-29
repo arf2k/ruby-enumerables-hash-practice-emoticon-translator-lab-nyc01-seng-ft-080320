@@ -8,6 +8,7 @@ def load_library(file)
     new_hash[key] = {}
     new_hash[key][:english] = value[0]
     new_hash[key][:japanese] = value[1]
+      end
     end
   end
   new_hash 
