@@ -16,9 +16,10 @@ def get_english_meaning(emoticon)
   library = load_library(file)
     word = library.keys.find do |key|
       library[key][:english] == emoticon 
-    binding.pry 
-    end  
-
+      binding.pry 
+    end
+    if word 
+end 
 
 
 
