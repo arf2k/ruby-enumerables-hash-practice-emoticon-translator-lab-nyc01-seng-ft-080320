@@ -6,7 +6,6 @@ def load_library(file)
   new_hash = {}
   binding.pry 
   end
-end 
 
 
 
