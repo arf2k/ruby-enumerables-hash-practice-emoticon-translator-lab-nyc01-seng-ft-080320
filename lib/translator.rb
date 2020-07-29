@@ -31,6 +31,7 @@ def get_english_meaning(file, emoticon)
     end 
     if word 
       word 
+    end 
   end
 
 
